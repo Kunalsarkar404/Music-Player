@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Music" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Music" parent="Base.Theme.Music" />
+
+    <style name="BoldSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:height">7dp</item>
+        <item name="android:progressTint">@color/white</item>
+        <item name="android:progressBackgroundTint">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+
+</resources>

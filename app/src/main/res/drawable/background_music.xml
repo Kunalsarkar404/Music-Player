@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item android:drawable="@drawable/music_image" />
+
+    <!-- Dimming overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B3000000" /> <!-- Adjust the color and alpha as needed -->
+        </shape>
+    </item>
+
+    <!-- Blur overlay -->
+    <item>
+        <bitmap
+            android:src="@drawable/music_image"
+            android:gravity="center"
+            android:alpha="0.2" /> <!-- Adjust the alpha as needed -->
+    </item>
+</layer-list>
